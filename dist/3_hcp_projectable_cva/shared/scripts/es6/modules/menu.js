@@ -1,0 +1,1 @@
+"use strict";function menu(){menuItems.on(touchclick,function(e){var t=$(e.target).data("target");veevaUtils.gotoSlide(t)})}Object.defineProperty(exports,"__esModule",{value:!0}),exports["default"]=menu;var menuItems=$(".menu a"),touchclick="ontouchend"in document.documentElement?"touchend":window.navigator.pointerEnabled?"pointerup":"click";

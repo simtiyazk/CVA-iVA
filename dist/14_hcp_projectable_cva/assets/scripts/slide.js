@@ -1,0 +1,1 @@
+"use strict";function _classCallCheck(n,c){if(!(n instanceof c))throw new TypeError("Cannot call a class as a function")}$(function(){var n,c,e=function a(){_classCallCheck(this,a),n=$("#projectable_core_visual_aid_clean"),c="ontouchend"in document.documentElement?"touchend":window.navigator.pointerEnabled?"pointerup":"click"};new e});

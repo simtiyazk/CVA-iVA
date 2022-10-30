@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* SCSS Document */
+
+@import "../shared/styles/variables";
+@import "../shared/styles/mixins";
+
+
+/********** Slide Specific Styles *********/
+
+#projectable_core_visual_aid_clean {
+	.content {
+      background: url('../images/Pages_2-3@2x.jpg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      top: 0;
+      width: $sw;
+      height: $sh;
+      display: block;
+   }
+   .full-pi-link-10 {
+      position: absolute;
+      width: 200px;
+      height: 20px;
+      top: 549px;
+      left: 420px;
+   }
+}
+

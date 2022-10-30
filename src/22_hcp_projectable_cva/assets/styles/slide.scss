@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* SCSS Document */
+
+@import "../shared/styles/variables";
+@import "../shared/styles/mixins";
+
+
+/********** Slide Specific Styles *********/
+
+#projectable_core_visual_aid_clean {
+	.content {
+      background: url('../images/Pages_2-3@2x.jpg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      top: 0;
+      width: $sw;
+      height: $sh;
+      display: block;
+   }
+   .fda-link {
+      position: absolute;
+      width: 160px;
+      height: 18px;
+      bottom: 138px;
+      left: 523px;
+   }
+   .link-isi, .abilify-bottom-logo{
+      display: none;
+   }
+   .full-isi-link{
+      position: absolute;
+      width: 215px;
+      height: 18px;
+      bottom: 68px;
+      left: 351px;
+   }
+}
+

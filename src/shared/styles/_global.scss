@@ -1,0 +1,49 @@
+.show-invisible {
+   background-color: none !important;
+   opacity: 1;
+}
+
+.link-isi{
+   position: absolute;
+   width: 220px;
+   height: 20px;
+   bottom: 66px;
+   left: 124px;
+   z-index: 2;
+}
+
+.pi-link {
+   position: absolute;
+   width: 130px;
+   height: 28px;
+   right: 124px;
+   top: 13px;
+   z-index: 2;
+}
+
+.ref-link {
+   position: absolute;
+   width: 68px;
+   height: 28px;
+   right: 52px;
+   top: 13px;
+   z-index: 2;
+}
+
+.abilify-top-logo{
+   position: absolute;
+   top: 0;
+   left: 415px;
+   width: 194px;
+   height: 125px;
+   z-index: 2;
+}
+
+.abilify-bottom-logo{
+   position: absolute;
+   width: 96px;
+   height: 50px;
+   right: 56px;
+   bottom: 72px;
+   z-index: 2;
+}

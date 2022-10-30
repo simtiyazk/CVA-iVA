@@ -1,0 +1,62 @@
+
+@import "variables";
+@import "mixins";
+
+
+/********** NORMALIZE *********/
+
+* { padding: 0; margin: 0; box-sizing:border-box; }
+a img { border: none; }
+a { text-decoration: none; outline: 0; }
+sup { 
+	position:relative;
+	top:-0.5em;
+	font-size: 0.65em; 
+	line-height: 0.5em; 
+	vertical-align:baseline;
+}
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+    background: none;
+    border: 0;
+    outline: none;
+    color: inherit;
+    /* cursor: default; */
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    -webkit-appearance: button; /* for input */
+    -webkit-user-select: none; /* for button */
+       -moz-user-select: none;
+        -ms-user-select: none;
+}
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/* Make `a` like a button */
+[role="button"] {
+	color: inherit;
+	cursor: default;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	white-space: pre;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+}
+
+body { 
+	width:$sw; height:$sh;
+	-webkit-tap-highlight-color: rgba(0,0,0,0); //hide ipad highlight tint
+	//font rendering
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	//text-rendering: optimizeLegibility;
+}

@@ -1,0 +1,32 @@
+/********** GLOBAL VARS *********/
+
+$sw:1024px; //screen width
+$sh:768px; //screen height
+$font-url: "../fonts";
+$image-url-path: "../images/";
+@function image-url($url) {
+    @return url("#{$image-url-path}#{$url}");
+}
+
+//FONTS
+$font-helvetica-bd: "HelveticaNeueLTStd-Bd";
+$font-helvetica-bdcn: "HelveticaNeueLTStd-BdCn";
+$AvantGardeGothic-Med: "AvantGardeGothic-Med";
+$AvantGardeGothic-bold: "AvantGardeGothic-Bold";
+$AvantGardeGothic-book: "AvantGardeGothic-Book";
+$AvantGardeGothic-Demi: "AvantGardeGothic-Demi";
+$Univers: "UniversLTStd-Regular";
+$Univers-bold: "UniversLTStd-Bold";
+$Univers-oblique: "UniversLTStd-Obl";
+$Univers-bold-oblique: "UniversLTStd-BoldObl";
+$CenturyGothic: "Century Gothic";
+$Avenir: "Avenir Book";
+// COLORS
+$white: #fff;
+$black: #000000;
+$gray: #2c3139;
+$pink: #8d2364;
+$light-blue: #00a1e1;
+$butterfly-bush: #6A55A5;
+$bay-of-many: #283193;
+$blue-bell: #9590CE;

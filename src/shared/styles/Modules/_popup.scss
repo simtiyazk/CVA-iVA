@@ -1,0 +1,108 @@
+.popup-overlay {
+  background-color: rgba(228,228,228, 0.6);
+  height: 100vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  z-index: 1;
+}
+.popups-container {
+    visibility: hidden;
+    &.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+    .popup {
+        display: none;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        background-color: transparent;
+        min-height: 400px;
+        width:720px;
+        z-index: 360;
+        &.visible {
+            display: block;
+        }
+        .play-overlay{
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          z-index: 1;
+        }
+        .popup-btn {
+          width: 49px;
+          height: 45px;
+          display: block;
+          position: absolute;
+
+          &.close {
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
+      }
+    }
+}
+
+.interactive-module{
+  position: absolute;
+  top:0;
+  display: none;
+  &.open{
+    display: block;
+  }
+  .module-close{
+    display: block;
+    position: absolute;
+    width: 130px;
+    height: 59px;
+    top: 234px;
+    left: 836px;
+  }
+}
+
+.popups-container {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background: #fff;
+}
+#isiScroll {
+  height: 768px;
+  position: relative;
+  overflow: hidden;
+}
+
+.pi-click-box {
+  height: 20px;
+  position: absolute;
+  top: 686px;
+  left: 122px;
+  width: 182px;
+}
+
+.pi-click-box-2 {
+  @extend .pi-click-box;
+  right: 222px;
+  left: unset;
+}
+
+.popup-btn.close {
+  font-family: Arial;
+  font-size: 20px;
+  position: absolute;
+  top: 20.5px;
+  right: 20.5px;
+  z-index: 999;
+  display: block;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+
+

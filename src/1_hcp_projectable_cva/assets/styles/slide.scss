@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* SCSS Document */
+
+@import "../shared/styles/variables";
+@import "../shared/styles/mixins";
+
+
+/********** Slide Specific Styles *********/
+
+#projectable_core_visual_aid_clean {
+	.content {
+      background: url('../images/Cover@2x.jpg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      top: 0;
+      width: $sw;
+      height: $sh;
+      display: block;
+
+   }
+   .abilify-bottom-logo{
+      display: none;
+   }
+   
+}
+
